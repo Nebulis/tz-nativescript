@@ -11,25 +11,9 @@ https://docs.nativescript.org/setup/quick-setup
 # Prepare project
 
 ```sh
+$ git submodule update --recursive --remote
 $ npm install
+$ grunt prepare --force
+$ grunt run-android --avd AVD_NAME --force
 ```
 
-# Add platforms(s)
-
-1. `tns platform add android`
-2. `tns platform add ios`
-
-# Run
-
-Android devices or emulators:
-
-```sh
-tns run android
-```
-
-or iOS...
-
-```sh
-tns run ios
-```
-![](https://ga-beacon.appspot.com/UA-111455-24/nativescript/sample-ng-todomvc?pixel) 
