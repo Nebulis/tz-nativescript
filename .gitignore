@@ -1,11 +1,9 @@
 node_modules
-built
-tags
+deps
 typings
 .baseDir.ts
 .tscache
-
+.idea
 app/**/*.js
-app/**/*.map
 platforms
 lib

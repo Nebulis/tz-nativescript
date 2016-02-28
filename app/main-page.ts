@@ -52,14 +52,14 @@ import {Checkbox} from './checkbox';
         </StackLayout>
     </StackLayout>
 </StackLayout>
-`,
+`
 })
 export class MainPage {
     private  todoStore: TodoStore;
 
     constructor() {
         this.todoStore = new TodoStore();
-        this.todoStore.add("item 1", true);
+        this.todoStore.add("item 111", true);
         this.todoStore.add("item 2", false);
     }
 
